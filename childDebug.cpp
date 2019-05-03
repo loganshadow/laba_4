@@ -2,7 +2,7 @@
 // Created by mikh- on 03.05.2019.
 //
 
-#include "child.h"
+#include "childDebug.h"
 #include <iostream>
 void child::output() {
     std::cout << "Child data:" << std::endl;

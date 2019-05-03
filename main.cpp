@@ -2,7 +2,7 @@
 #include "complex.h"
 #include "vector.h"
 #include "Tiles.h"
-#include "child.h"
+#include "childDebug.h"
 
 using std::cout;
 using std::endl;

@@ -2,8 +2,8 @@
 // Created by mikh- on 03.05.2019.
 //
 
-#ifndef LABA_4_CHILD_H
-#define LABA_4_CHILD_H
+#ifndef LABA_4_CHILDDEBUG_H
+#define LABA_4_CHILDDEBUG_H
 #include <string>
 class child {
     std::string name;
@@ -16,4 +16,4 @@ public:
     void input();
     void output();
 };
-#endif //LABA_4_CHILD_H
+#endif //LABA_4_CHILDDEBUG_H
