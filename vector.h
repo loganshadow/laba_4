@@ -5,9 +5,12 @@
 #ifndef LABA_4_VECTOR_H
 #define LABA_4_VECTOR_H
 class Vector{
-public:
     double x;
     double y;
+public:
+    Vector(double x = 0, double y = 0);
+    Vector(const Vector &alt);
+    ~Vector() {};
     void set_Vector();
     void get_Vector();
     void abs();

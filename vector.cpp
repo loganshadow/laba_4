@@ -39,3 +39,5 @@ void Vector::get_Vector()
     std::cout << "X = " << x << std::endl;
     std::cout << "Y = " << y << std::endl;
 }
+Vector::Vector(double x, double y): x(x), y(y) {};
+Vector::Vector(const Vector &alt): x(alt.x), y(alt.y) {};
